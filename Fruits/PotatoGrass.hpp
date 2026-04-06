@@ -4,7 +4,8 @@
 class PotatoGrass : public Grass
 {
 public:
-	PotatoGrass(std::string name, std::string cropName) : Grass(50, 70, 25, "Картофель", "Картофель") {}
+	PotatoGrass(std::string name, std::string cropName) : Grass(50, 70, 25, name, cropName) { GenerateCrops(); }
+
 
 protected: 
 	void GenerateCrops() override

@@ -13,6 +13,7 @@ public:
 	{
 		int rand_num = min_color + rand() % max_color;
 		weight_ = min_weight + (max_weight - min_weight) * ((double)rand() / RAND_MAX);
+		name_ = name;
 		
 		switch (rand_num)
 		{

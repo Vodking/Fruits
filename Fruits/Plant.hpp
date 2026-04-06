@@ -28,9 +28,24 @@ public:
 
 	virtual Crop Harvest()
 	{
-		Crop buffer = crops_[crops_.size()];
+		Crop buffer = crops_[crops_.size()-1];
 		crops_.pop_back();
 		return buffer;
+	}
+
+	int GetCrops()
+	{
+		return crops_.size();
+	}
+
+	double GetHeight()
+	{
+		return height_;
+	}
+
+	std::string GetName()
+	{
+		return name_;
 	}
 protected:
 	double maxHeight_;
