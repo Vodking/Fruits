@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Apple.cpp" />
     <ClCompile Include="Blueberry.cpp" />
+    <ClCompile Include="BlueberryBush.cpp" />
+    <ClCompile Include="Bush.cpp" />
+    <ClCompile Include="Grass.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PotatoGrass.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Crop.cpp" />
     <ClCompile Include="Header.cpp" />
@@ -137,9 +142,14 @@
   <ItemGroup>
     <ClInclude Include="Apple.hpp" />
     <ClInclude Include="Blueberry.hpp" />
+    <ClInclude Include="BlueberryBush.hpp" />
+    <ClInclude Include="Bush.hpp" />
     <ClInclude Include="Crop.hpp" />
+    <ClInclude Include="Grass.hpp" />
     <ClInclude Include="Header.hpp" />
+    <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Potato.hpp" />
+    <ClInclude Include="PotatoGrass.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
 #include "Header.hpp"
+#pragma once
 class Crop
 {
 protected:
